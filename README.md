@@ -11,6 +11,7 @@ A custom WordPress plugin developed to monitor employee activities and enhance s
 - ✅ Sends real-time email alerts for critical security events
 - ✅ Provides admin dashboard with categorized logs
 - ✅ Exportable logs in CSV format
+![ChatGPT Image Apr 12, 2025, 01_44_39 PM](https://github.com/user-attachments/assets/ab3c7474-846e-4f33-addd-a4462bd8f8ec)
 
 ---
 
@@ -51,6 +52,7 @@ A clear and filterable activity log is available in the WordPress admin dashboar
 
 ![Activity Logs Panel](![Screenshot 2025-04-12 135047](https://github.com/user-attachments/assets/25f05380-22c5-4add-a17b-c315d0ff5aaa)
 )
+![Screenshot 2025-04-12 134946](https://github.com/user-attachments/assets/805dd715-62a4-4c32-b3da-a8b66dd9ba41)
 
 ---
 
