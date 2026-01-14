@@ -173,6 +173,16 @@ A clear and filterable activity log is available in the WordPress admin dashboar
 - **WP-Cron**: For automated tasks
 
 ---
+## 🚀 Installation
+
+1. Clone or download this repository
+2. Place `activity-logger-security-monitor` folder inside `/wp-content/plugins/`
+3. Activate from WP Admin > Plugins
+4. View logs from `Activity Logs` menu in the admin sidebar
+
+---
+
+
 
 <div align="center">
 
