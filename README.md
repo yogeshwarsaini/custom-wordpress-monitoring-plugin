@@ -54,33 +54,138 @@ A clear and filterable activity log is available in the WordPress admin dashboar
 )
 ![Screenshot 2025-04-12 134946](https://github.com/user-attachments/assets/805dd715-62a4-4c32-b3da-a8b66dd9ba41)
 
----
-
-## 🧰 Tools Used
-
-- PHP (custom plugin)
-- WordPress Hooks/APIs
-- WP Mail for alerts
-- CSV logging
 
 ---
 
-## 🚀 Installation
+## 🚀 Tech Stack
 
-1. Clone or download this repository
-2. Place `activity-logger-security-monitor` folder inside `/wp-content/plugins/`
-3. Activate from WP Admin > Plugins
-4. View logs from `Activity Logs` menu in the admin sidebar
+### Core Technologies
+
+<div align="center">
+
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![WordPress](https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+
+</div>
+
+### 📊 Project Stats
+
+<div align="center">
+
+![Version](https://img.shields.io/badge/Version-v9.0-brightgreen?style=flat-square)
+![WordPress](https://img.shields.io/badge/WordPress-5.6+-blue?style=flat-square)
+![PHP](https://img.shields.io/badge/PHP-7.4+-purple?style=flat-square)
+![License](https://img.shields.io/badge/License-GPL--2.0-orange?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
+![Build](https://img.shields.io/badge/Build-Passing-brightgreen?style=flat-square)
+
+**9+ Classes** • **3K+ Lines of Code** • **50+ Functions** • **Unlimited Sites Support**
+
+</div>
+
+### 🎯 WordPress Integration
+
+| Technology | Purpose |
+|------------|---------|
+| 🔌 **Plugin API** | WordPress hooks & filters |
+| 🔑 **App Passwords** | Secure authentication |
+| ⏰ **WP Cron** | Automated scheduled tasks |
+| 💾 **Options API** | Settings & data storage |
+| 📱 **REST API** | Inter-site communication |
+| ⚡ **AJAX** | Real-time updates |
+
+### ✨ Key Features
+
+<table>
+<tr>
+<td width="50%">
+
+#### 🔒 Security Management
+- File editor control
+- Version hiding
+- File protection
+- Auto IP blocking (4 failed attempts)
+
+</td>
+<td width="50%">
+
+#### 📊 Monitoring & Alerts
+- Real-time uptime monitoring
+- SSL certificate tracking
+- Smart notification system
+- Activity logging
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+#### ⚙️ Site Management
+- Plugin management
+- Theme management
+- Post & page control
+- Bulk operations
+
+</td>
+<td width="50%">
+
+#### ⏱️ Automation
+- 5-minute uptime checks
+- Hourly security scans
+- Automated backups
+- Scheduled tasks
+
+</td>
+</tr>
+</table>
+
+### 🛠️ Technical Architecture
+
+```
+┌─────────────────────────────────────────┐
+│         Main WordPress Site             │
+│     (Central Management Dashboard)      │
+└──────────────┬──────────────────────────┘
+               │
+       ┌───────┴───────┐
+       │   REST API    │
+       │ Communication │
+       └───────┬───────┘
+               │
+    ┌──────────┼──────────┐
+    │          │          │
+┌───▼───┐  ┌──▼────┐  ┌──▼────┐
+│Site 1 │  │Site 2 │  │Site N │
+│Plugin │  │Plugin │  │Plugin │
+└───────┘  └───────┘  └───────┘
+```
+
+### 📦 Dependencies
+
+- **PHP**: 7.4 or higher
+- **WordPress**: 5.6 or higher
+- **MySQL**: 5.6 or higher
+- **cURL**: For REST API communication
+- **WP-Cron**: For automated tasks
 
 ---
+
+<div align="center">
 
 ## 📧 Contact
 
 For queries or enhancements, feel free to reach out.
 
-**Developer:** Yogeshwar Saini  
-**Email:** yogismash123@gmail.com  
+**Developer:** Yogeshwar Saini
+**Email:** yogismash123@gmail.com
 **GitHub:** [github.com/yogeshwar-saini](https://github.com/yogeshwar-saini)
 
----
 
+
+**Built with ❤️ for WordPress Security & Management**
+
+</div>
