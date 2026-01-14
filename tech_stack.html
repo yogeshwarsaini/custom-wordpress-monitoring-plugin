@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technology Stack</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: white;
+            padding: 60px 40px;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        h1 {
+            font-size: 48px;
+            margin-bottom: 15px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .subtitle {
+            font-size: 20px;
+            color: #666;
+            margin-bottom: 30px;
+        }
+        .section {
+            margin-bottom: 50px;
+        }
+        .section-title {
+            font-size: 28px;
+            color: #2d3748;
+            margin-bottom: 25px;
+            padding-left: 15px;
+            border-left: 5px solid #667eea;
+        }
+        .badges-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .badge-card {
+            background: linear-gradient(135deg, #f7fafc, #edf2f7);
+            border: 2px solid #e2e8f0;
+            border-radius: 15px;
+            padding: 25px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        .badge-card:hover {
+            transform: translateY(-5px);
+            border-color: #667eea;
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.2);
+        }
+        .badge-icon {
+            font-size: 56px;
+            margin-bottom: 15px;
+            display: block;
+        }
+        .badge-name {
+            font-size: 20px;
+            font-weight: 700;
+            color: #2d3748;
+            margin-bottom: 8px;
+        }
+        .badge-desc {
+            font-size: 14px;
+            color: #718096;
+        }
+        .shields-section {
+            background: #f7fafc;
+            border-radius: 20px;
+            padding: 40px;
+            margin-bottom: 50px;
+        }
+        .shields-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+        .shield {
+            display: inline-flex;
+            align-items: center;
+            background: white;
+            padding: 10px 20px;
+            border-radius: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            font-size: 14px;
+            font-weight: 600;
+        }
+        .shield-label {
+            color: #4a5568;
+            margin-right: 8px;
+        }
+        .shield-value {
+            color: white;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-weight: 700;
+        }
+        .shield-green { background: #48bb78; }
+        .shield-blue { background: #4299e1; }
+        .shield-purple { background: #9f7aea; }
+        .shield-orange { background: #ed8936; }
+        .shield-pink { background: #ed64a6; }
+        .features-list {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .feature-item {
+            display: flex;
+            align-items: center;
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            border-left: 4px solid #667eea;
+        }
+        .feature-icon {
+            font-size: 32px;
+            margin-right: 15px;
+        }
+        .feature-text {
+            flex: 1;
+        }
+        .feature-title {
+            font-size: 16px;
+            font-weight: 700;
+            color: #2d3748;
+            margin-bottom: 5px;
+        }
+        .feature-desc {
+            font-size: 13px;
+            color: #718096;
+        }
+        .stats-bar {
+            background: #f7fafc;
+            border-radius: 15px;
+            padding: 30px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+            margin-top: 30px;
+        }
+        .stat-item {
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 48px;
+            font-weight: 700;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 10px;
+        }
+        .stat-label {
+            font-size: 14px;
+            color: #718096;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>⚡ Technology Stack</h1>
+            <p class="subtitle">Built with modern technologies for maximum performance</p>
+        </div>
+
+        <!-- Shields/Badges -->
+        <div class="shields-section">
+            <div class="section-title">📊 Project Stats</div>
+            <div class="shields-grid">
+                <div class="shield">
+                    <span class="shield-label">Version</span>
+                    <span class="shield-value shield-green">v9.0</span>
+                </div>
+                <div class="shield">
+                    <span class="shield-label">WordPress</span>
+                    <span class="shield-value shield-blue">5.6+</span>
+                </div>
+                <div class="shield">
+                    <span class="shield-label">PHP</span>
+                    <span class="shield-value shield-purple">7.4+</span>
+                </div>
+                <div class="shield">
+                    <span class="shield-label">License</span>
+                    <span class="shield-value shield-orange">GPL-2.0</span>
+                </div>
+                <div class="shield">
+                    <span class="shield-label">Status</span>
+                    <span class="shield-value shield-green">Active</span>
+                </div>
+                <div class="shield">
+                    <span class="shield-label">Build</span>
+                    <span class="shield-value shield-pink">Passing</span>
+                </div>
+            </div>
+
+            <div class="stats-bar">
+                <div class="stat-item">
+                    <div class="stat-number">9+</div>
+                    <div class="stat-label">Classes</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">3K+</div>
+                    <div class="stat-label">Lines of Code</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Functions</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">∞</div>
+                    <div class="stat-label">Sites Support</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Core Technologies -->
+        <div class="section">
+            <div class="section-title">🔧 Core Technologies</div>
+            <div class="badges-grid">
+                <div class="badge-card">
+                    <span class="badge-icon">🐘</span>
+                    <div class="badge-name">PHP</div>
+                    <div class="badge-desc">Server-side scripting</div>
+                </div>
+                <div class="badge-card">
+                    <span class="badge-icon">🗄️</span>
+                    <div class="badge-name">MySQL</div>
+                    <div class="badge-desc">Database management</div>
+                </div>
+                <div class="badge-card">
+                    <span class="badge-icon">📱</span>
+                    <div class="badge-name">REST API</div>
+                    <div class="badge-desc">Inter-site communication</div>
+                </div>
+                <div class="badge-card">
+                    <span class="badge-icon">⚡</span>
+                    <div class="badge-name">AJAX</div>
+                    <div class="badge-desc">Real-time updates</div>
+                </div>
+                <div class="badge-card">
+                    <span class="badge-icon">🎨</span>
+                    <div class="badge-name">CSS3</div>
+                    <div class="badge-desc">Modern styling</div>
+                </div>
+                <div class="badge-card">
+                    <span class="badge-icon">📜</span>
+                    <div class="badge-name">JavaScript</div>
+                    <div class="badge-desc">Interactive features</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- WordPress Features -->
+        <div class="section">
+            <div class="section-title">🎯 WordPress Integration</div>
+            <div class="badges-grid">
+                <div class="badge-card">
+                    <span class="badge-icon">🔌</span>
+                    <div class="badge-name">Plugin API</div>
+                    <div class="badge-desc">WordPress hooks & filters</div>
+                </div>
+                <div class="badge-card">
+                    <span class="badge-icon">🔐</span>
+                    <div class="badge-name">App Passwords</div>
+                    <div class="badge-desc">Secure authentication</div>
+                </div>
+                <div class="badge-card">
+                    <span class="badge-icon">⏰</span>
+                    <div class="badge-name">WP Cron</div>
+                    <div class="badge-desc">Automated tasks</div>
+                </div>
+                <div class="badge-card">
+                    <span class="badge-icon">💾</span>
+                    <div class="badge-name">Options API</div>
+                    <div class="badge-desc">Settings storage</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Key Features -->
+        <div class="section">
+            <div class="section-title">✨ Key Features</div>
+            <div class="features-list">
+                <div class="feature-item">
+                    <span class="feature-icon">🔒</span>
+                    <div class="feature-text">
+                        <div class="feature-title">Security Management</div>
+                        <div class="feature-desc">File editor, version hiding, file protection</div>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">🚫</span>
+                    <div class="feature-text">
+                        <div class="feature-title">IP Blocking System</div>
+                        <div class="feature-desc">Auto-block after 4 failed attempts</div>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">📊</span>
+                    <div class="feature-text">
+                        <div class="feature-title">Uptime Monitoring</div>
+                        <div class="feature-desc">Real-time site status tracking</div>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">🔔</span>
+                    <div class="feature-text">
+                        <div class="feature-title">Smart Alerts</div>
+                        <div class="feature-desc">Real-time & email notifications</div>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">⚙️</span>
+                    <div class="feature-text">
+                        <div class="feature-title">Site Management</div>
+                        <div class="feature-desc">Plugins, themes, posts, pages</div>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">📋</span>
+                    <div class="feature-text">
+                        <div class="feature-title">Activity Logging</div>
+                        <div class="feature-desc">Date-wise text file logs</div>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">🔐</span>
+                    <div class="feature-text">
+                        <div class="feature-title">SSL Monitoring</div>
+                        <div class="feature-desc">Certificate expiry tracking</div>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">⏰</span>
+                    <div class="feature-text">
+                        <div class="feature-title">Automated Tasks</div>
+                        <div class="feature-desc">5-min checks, hourly scans</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
